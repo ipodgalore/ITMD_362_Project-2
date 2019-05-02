@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
   <head>
-    <title>ISUD About</title>
+    <title>ISUD Contact Us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link href="https://fonts.googleapis.com/css?family=Karla|Roboto+Mono|Source+Code+Pro|Ubuntu" rel="stylesheet">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" media="screen" href="../css/reset.css" />
     <link rel="stylesheet" media="screen" href="../css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async src="../javascript/site_index.js"></script>
+    <script async src="../javascript/site_accordian.js"></script>
   </head>
   <header>
     <div id="logo" class="menuUp">
@@ -46,10 +46,36 @@
     </nav>
     </header>
   <body>
-    <h2>Vist the ISUD companion Journal</h2>
-    <h3>Dialogue and Universalism</h3>
-    <p><a href="http://dialogueanduniversalism.eu/">www.dialogueanduniversalism.eu</a></p>
-    <a  href="http://dialogueanduniversalism.eu/"><img src="../images/dandu.png" alt="Dialogue and Universalism" />
+    <h1>Contact Us</h1>
+    <p>Thank you for your interest in ISUD.</p>
+    <p>To contact us please reach us via:</p>
+    <p>Facebook: <a href="https://www.facebook.com/ISUDXIIWorldCongress/" >@ISUDXIIWorldCongress</a></p>
+    <button class="accordion">Contact Us Form</button>
+    <div class="panel">
+      <form>
+        <ol>
+          <li id="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </li>
+          <li id="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" pattern="^.+@.+$" />
+          </li>
+          <li id="subject">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject"  />
+          </li>
+          <li id="message">
+            <label for="message">Message:</label>
+            <input type="text" name="message" id="message"  />
+          </li>
+          <li id="input-submit">
+            <input type="submit" name="submit" id="submit" value="Send" />
+          </li>
+        </ol>
+      </form>
+    </div>
     <footer>
 
     </footer>

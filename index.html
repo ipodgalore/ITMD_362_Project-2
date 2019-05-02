@@ -9,10 +9,48 @@
     <link rel="stylesheet" media="screen" href="css/reset.css" />
     <link rel="stylesheet" media="screen" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async src="js/site_index.js"></script>
+    <script async src="javascript/site_index.js"></script>
+    <script async src="javascript/site_accordian.js"></script>
   </head>
-  <body>
-
+    <header>
+    <div id="logo" class="menuUp">
+    <a href="index.html"><img src="images/isud_logo.png" alt=logo class="navlogo"></a>
+    <div id="navToggle"><a href="index.html">Menu</a></div>
+    </div>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    <li>
+      <a href="about.html">About <span class="toggle">Expand</span><span class="caret"></span></a>
+    <nav>
+      <ul>
+        <li><a href="about/history.html">History</a></li>
+        <li><a href="about/constitution.html">Constitution</a></li>
+        <li><a href="about/board.html">Board of Directors</a></li>
+        <li><a href="about/duJournal.html">D&U Journal </a></li>
+        <li><a href="about/contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </li>
+    <li>  <a href="event.html">Events<span class="toggle">Expand</span><span class="caret"></span></a>
+      <nav>
+        <ul>
+          <li><a href="event/2018_congress.html">2018 Congress</a></li>
+          <li><a href="event/2016_congress.html">2016 Congress</a></li>
+          <li><a href="event/past_events.html">Past Events</a></li>
+          <li><a href="event/videos.html">Videos</a></li>
+        </ul>
+      </nav>
+    </li>
+    </ul>
+    </nav>
+    </header>
+      <body>
+        <button class="accordion">Check out our latest event!</button>
+        <div class="panel">
+          <p><a href="http://congreso.pucp.edu.pe/isud/">Click here to be linked to the event page!</p>
+          <img src="images/latestevent.png" class="eventimage"/>
+        </div>
     <footer>
 
     </footer>
